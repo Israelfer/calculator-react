@@ -1,0 +1,64 @@
+:root {
+  --var-primary-color: #ff9500;
+  --var-secundary-color: #505050;
+}
+
+.wrapper {
+  background-color: black;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+button {
+  width: 3em;
+  height: 3em;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 2em;
+  margin: 0.3em;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.lightGray:focus {
+  background-color: white;
+  transition: 0.4s;
+}
+
+.orange {
+  background-color: var(--var-primary-color);
+  color: white;
+}
+
+.orange:focus {
+  background-color: white;
+  color: var(--var-primary-color);
+  transition: 0.4s;
+}
+
+.gray {
+  background-color: var(--var-secundary-color);
+  color: white;
+}
+
+.gray:focus {
+  background-color: #929292;
+  transition: 0.4s;
+}
+
+#btnZero {
+  width: 6.6em;
+  border-radius: 1em;
+  text-align: left;
+  padding-left: 1em;
+}
+
+.result {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 3.5em;
+  margin-right: 1em;
+}
